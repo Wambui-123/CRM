@@ -3,11 +3,11 @@ import environ
 import os
 from pathlib import Path
 import env
-# import cloudinary
-# import cloudinary.uploader
-# import cloudinary.api
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 import os
-# import django_heroku
+import django_heroku
 import dj_database_url
 from decouple import config,Csv
 
@@ -154,7 +154,7 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 MEDIA_URL = '/media/'
-MEDIA_ROOT = "media_root"
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATIC_ROOT = "static_root"
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
@@ -205,3 +205,4 @@ LOGGING = {
 }
 
 TAILWIND_APP_NAME = 'theme'
+django_heroku.settings(locals())
