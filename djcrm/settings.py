@@ -1,7 +1,6 @@
 from pathlib import Path
 import os
 from pathlib import Path
-import env
 import cloudinary
 import cloudinary.uploader
 import cloudinary.api
