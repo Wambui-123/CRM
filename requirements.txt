@@ -32,7 +32,6 @@ python-decouple==3.6
 # Django==3.2
 django-bootstrap4==21.1
 django-crispy-forms==1.13.0
-django-emoji-picker==0.0.6heroku logs --tail
 django-extensions==2.2.5
 django-phone-field==1.8.1
 django-tinymce==3.4.0
