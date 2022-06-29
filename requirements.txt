@@ -11,6 +11,9 @@ pytz==2020.4
 sqlparse==0.4.1
 whitenoise==5.2.0
 cloudinary==1.28.0
+django-heroku==0.3.1
+python-decouple==3.6
+
 
 
 # asgiref==3.4.1
@@ -31,7 +34,6 @@ cloudinary==1.28.0
 # django-crispy-forms==1.13.0
 # django-emoji-picker==0.0.6heroku logs --tail
 # django-extensions==2.2.5
-django-heroku==0.3.1
 # django-phone-field==1.8.1
 # django-tinymce==3.4.0
 # djangorestframework==3.13.1
@@ -43,7 +45,6 @@ django-heroku==0.3.1
 # psycopg2-binary==2.8.6
 # pycparser==2.21
 # PyJWT==2.4.0
-# python-decouple==3.6
 # python3-openid==3.2.0
 # pytz==2021.3
 # requests==2.26.0
