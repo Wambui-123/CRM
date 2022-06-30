@@ -14,9 +14,8 @@ A CRM(Customer relationship management) system created to confirm that business 
 
 ## [Demo](https://wambo-neighboorhood.herokuapp.com/) click to view
 
-
-![Image](static/images/Screenshot%20from%202022-06-30%2013-49-10.png)
 ![Image](static/images/Screenshot%20from%202022-06-30%2013-49-36.png)
+![Image](static/images/Screenshot%20from%202022-06-30%2013-49-10.png)
 ![Image](static/images/Screenshot%20from%202022-06-30%2013-51-30.png)
 
 ## Technologies Used
