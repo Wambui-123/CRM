@@ -15,8 +15,8 @@ A CRM(Customer relationship management) system created to confirm that business 
 ## [Demo](https://wambo-neighboorhood.herokuapp.com/) click to view
 
 
-![Image](/neighbour/static/photos/Screenshot%20from%202022-06-21%2011-23-49.png)
-![Image](/neighbour/static/photos/Screenshot%20from%202022-06-20%2020-28-08.png)
+![Image](static/images/Screenshot%20from%202022-06-30%2013-49-10.png)
+![Image](getting-started-with-django-main/static/images/Screenshot%20from%202022-06-30%2013-49-36.png)
 
 ## Technologies Used
 * Python
