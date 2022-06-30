@@ -75,6 +75,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
 ROOT_URLCONF = 'djcrm.urls'
 
 TEMPLATES = [
@@ -162,8 +166,10 @@ LOGIN_REDIRECT_URL = "/leads"
 LOGIN_URL = "/login"
 LOGOUT_REDIRECT_URL = "/"
 
-# CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
-# CRISPY_TEMPLATE_PACK = 'tailwind'
+CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
+
+CRISPY_TEMPLATE_PACK = "tailwind"
+
 
 if not DEBUG:
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
